@@ -1,10 +1,13 @@
 ![GitHub Logo](https://img.shields.io/badge/version-1.0-orange.svg) ![GitHub Logo](https://img.shields.io/badge/minSdkVersion-21-blue.svg)
 
+
+![GitHub Logo](http://i67.tinypic.com/mmq0py.png)
+
 ## Setup
 
 ### Gradle
 
-Add it in your root build.gradle at the end of repositories:
+Add in your root build.gradle at the end of repositories:
 
 ```
 allprojects {
@@ -37,8 +40,8 @@ Add the dependency
 
 ```
 <dependency>
-	    <groupId>com.github.Ftouzi</groupId>
-	    <artifactId>IndexedProgress</artifactId>
-	    <version>1.0</version>
-	</dependency>
+    <groupId>com.github.Ftouzi</groupId>
+    <artifactId>IndexedProgress</artifactId>
+    <version>1.0</version>
+</dependency>
 ```
