@@ -45,3 +45,30 @@ Add the dependency
     <version>1.0</version>
 </dependency>
 ```
+
+## How does this work ?
+
+* Using only XML attributes :
+
+```xml
+<com.ftouzi.indexedprogress.IndexedProgress
+            android:id="@+id/indexedProgress"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            app:value="75"
+            app:base_color="@color/colorPrimaryDark"
+            app:progress_shader="@drawable/ic_lines"
+            app:separator_color="@color/colorPrimary"
+            app:value_color="@android:color/white" />
+```
+
+* Using simple setters :
+
+```kotlin
+ indexedProgress.setValue(12f)
+ indexedProgress.setValueColor(Color.RED)
+
+```
+   
+
+    
