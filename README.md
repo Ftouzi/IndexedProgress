@@ -9,7 +9,7 @@
 
 Add in your root build.gradle at the end of repositories:
 
-```
+```gradle
 allprojects {
     repositories {
         ...
@@ -19,7 +19,7 @@ allprojects {
 ```
 Add the dependency
 
-```
+```gradle
 dependencies {
     implementation 'com.github.Ftouzi:IndexedProgress:1.0'
 }
@@ -27,7 +27,7 @@ dependencies {
 
 ### Maven
 
-```
+```gradle
 <repositories>
 	<repository>
 	    <id>jitpack.io</id>
@@ -38,7 +38,7 @@ dependencies {
 
 Add the dependency
 
-```
+```gradle
 <dependency>
     <groupId>com.github.Ftouzi</groupId>
     <artifactId>IndexedProgress</artifactId>
