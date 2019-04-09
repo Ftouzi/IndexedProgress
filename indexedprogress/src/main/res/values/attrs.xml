@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="IndexedProgress">
+
+        <attr name="base_color" format="color" />
+        <attr name="enable_rounded_corner" format="boolean" />
+
+        <attr name="progress_shader" format="reference" />
+        <attr name="progress_color" format="color" />
+
+        <attr name="separator_color" format="color" />
+
+        <attr name="value" format="float" />
+        <attr name="value_color" format="color" />
+        <attr name="value_font" format="reference" />
+        <attr name="value_suffix" format="string"/>
+
+    </declare-styleable>
+
+</resources>
